@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #ebdbb2;
+
+  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+
+  overflow: hidden;
+
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+
+  user-select: none;
+}
+
+.selectable-text {
+  user-select: text;
+}

@@ -2,7 +2,6 @@
 
 VFS::VFS() {
     addNode(0, "root", "dir", "4.0 K", "2026-03-21", "", -1);
-    addNode(999, "tutorial.txt", "txt", "1.0 K", "2026-03-23", "Welcome to MA-OS!\n\nNavigation Instructions:\n- Use ARROW KEYS (Up/Down) to navigate through the file system.\n- Press ENTER to open a file or enter a folder.\n- Using the keyboard is MANDATORY for navigating this interface.\n\nEnjoy exploring my portfolio!", 0);
     addNode(1, "about", "dir", "4.0 K", "2026-03-21", "", 0);
     addNode(2, "projects", "dir", "4.0 K", "2026-03-21", "", 0);
     addNode(3, "experience", "dir", "4.0 K", "2026-03-21", "", 0);

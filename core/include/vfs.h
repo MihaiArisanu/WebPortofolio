@@ -11,7 +11,6 @@ struct FileNode {
   std::string size;
   std::string date;
   std::string content;
-  std::string imageUrl;
   int parent_id;
   std::vector<int> children_ids;
 };

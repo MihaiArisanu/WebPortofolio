@@ -2,7 +2,7 @@
 
 VFS::VFS() {
     addNode(0, "root", "dir", "4.0 K", "2026-03-21", "", -1);
-    addNode(1, "README.MD", "txt", "4.0 K", "2026-03-21", "Welcome to MihaiArisanuOs!\n\nWarning: To use this is app is mandatory to use a keyboard as input device.\nNotice: To navigate around the page you need to use arrows keys. Press ENTER to enter a folder or to run any .sh/.exe file on this page", 0);
+    addNode(1, "man.txt", "txt", "4.0 K", "2026-03-21", "Welcome to MihaiArisanuOs!\n\nWarning: To use this is app is mandatory to use a keyboard as input device.\nNotice: To navigate around the page you need to use arrows keys. Press ENTER to enter a folder or to run any .sh/.exe file on this page", 0);
     addNode(2, "about", "dir", "4.0 K", "2026-03-21", "", 0);
     addNode(3, "projects", "dir", "4.0 K", "2026-03-21", "", 0);
     addNode(4, "experience", "dir", "4.0 K", "2026-03-21", "", 0);

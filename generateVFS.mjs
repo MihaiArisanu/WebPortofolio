@@ -19,6 +19,10 @@ async function generateVFS() {
     cppCode += `VFS::VFS() {\n`;
 
     files.forEach(file => {
+        if (file.name === 'about') {
+            cppCode += `    addNode(999, "tutorial.txt", "txt", "1.0 K", "2026-03-23", "Welcome to MA-OS!\\n\\nNavigation Instructions:\\n- Use ARROW KEYS (Up/Down) to navigate through the file system.\\n- Press ENTER to open a file or enter a folder.\\n- Using the keyboard is MANDATORY for navigating this interface.\\n\\nEnjoy exploring my portfolio!", 0);\n`;
+        }
+
         let safeContent = "";
 
         if (file.content) {

@@ -5,7 +5,6 @@ import LayoutTUI from './components/LayoutTUI';
 
 export default function App() {
   const {
-    engineLoaded,
     files,
     selectedIndex,
     currentPath,
